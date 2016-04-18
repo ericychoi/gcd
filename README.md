@@ -9,7 +9,7 @@ TODO
 ## Install
 ```
 $ go get github.com/ericychoi/gcd
-$ alias gcd = ". $GOPATH/src/github.com/ericychoi/gcd/gcd-wrapper.sh"
+$ alias gcdw=". $GOPATH/src/github.com/ericychoi/gcd/gcd-wrapper.sh" # wrapper alias
 ```
 
 Make sure `$GOPATH/bin` is in your `PATH`
