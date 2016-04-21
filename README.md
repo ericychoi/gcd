@@ -8,6 +8,7 @@ TODO
 
 ## Install
 ```
+$ go get github.com/jroimartin/gocui
 $ go get github.com/ericychoi/gcd
 $ alias gc=". $GOPATH/src/github.com/ericychoi/gcd/gcd-wrapper.sh" # wrapper alias
 ```
