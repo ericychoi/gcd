@@ -4,7 +4,7 @@ Go Change Directory
 A simple utility to help you navigate directory trees. Inspired by `ncd` and `midnight-commander`.
 
 ## Usage
-TODO
+![alt=GCD in Action](https://github.com/ericychoi/gcd/blob/master/gcd.gif)
 
 ## Install
 ```
@@ -15,5 +15,3 @@ $ alias gc=". $GOPATH/src/github.com/ericychoi/gcd/gcd-wrapper.sh" # wrapper ali
 
 Make sure `$GOPATH/bin` is in your `PATH`
 
-## TODO
- - [ ] Godep
