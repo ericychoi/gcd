@@ -1,6 +1,7 @@
+DIR=`dirname "$0"`
 GCD_USER=`id | sed 's/[^(]*(//;s/).*//'`
 GCD_PWD_FILE="${TMPDIR-/tmp}/gcd-$GCD_USER-gcd.pwd.$$"
-gcd "$GCD_PWD_FILE" "$@"
+$DIR/gcd "$GCD_PWD_FILE" "$@"
 
 if test -r "$GCD_PWD_FILE"; then
 	GCD_PWD="`cat "$GCD_PWD_FILE"`"
